@@ -789,6 +789,8 @@ Hero styless
         0px 1px 3px 0px rgba(0, 0, 0, 0.12),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 
+        padding: 39px;
+
 }
 
 .modal-buttom{
@@ -822,6 +824,61 @@ Hero styless
         fill: #ffffff;
 }
 
+.modal-caption {
+
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 44px;
+       
+        width: 360px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2E2F42;
+}
+
+.modal-form {}
+
+.modal-form-field {
+        display: block;
+        margin-bottom: 18px;
+}
+
+.modal-form-label {
+        display: block;
+        margin-bottom: 9px;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.48px;
+}
+
+.modal-form-input {
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+        font-size: 18px;
+
+        outline: transparent;
+        width: 360px;
+        height: 40px;
+        flex-shrink: 0;
+        height: 26px;
+        padding: 22px 38px;
+        transition: border-color var(--color3);
+}
+.modal-form-input:focus{
+        
+        border-color: var(--color3);
+}
+.modal-form-icon{
+        
+}
 
 
 
