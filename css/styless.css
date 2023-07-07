@@ -827,22 +827,20 @@ Hero styless
 .modal-caption {
 
         display: block;
-        margin-top: 20px;
         margin-bottom: 44px;
        
-        width: 360px;
-        font-family: Roboto;
+
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2E2F42;
 }
 
 .modal-form {}
 
 .modal-form-field {
+        position: relative;
         display: block;
         margin-bottom: 18px;
 }
@@ -865,7 +863,6 @@ Hero styless
         font-size: 18px;
 
         outline: transparent;
-        width: 360px;
         height: 40px;
         flex-shrink: 0;
         height: 26px;
@@ -877,7 +874,25 @@ Hero styless
         border-color: var(--color3);
 }
 .modal-form-icon{
-        
+
+       position: absolute;
+       bottom: 11px;
+       left: 16px;
+
+       fill: none;
+       stroke: #2E2F42;
+
+}
+
+.modal-form-input:focus + .modal-form-icon{
+        stroke: #4D5AE5;
+}
+.modal-form-comments{
+        width: 100%;
+        height: 138px;
+        resize: none;
+        border-radius: 4px;
+        border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
 }
 
 
