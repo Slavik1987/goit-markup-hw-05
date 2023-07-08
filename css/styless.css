@@ -971,3 +971,6 @@ Hero styless
 .modal-form-div-area{
         margin-bottom: 16px;
 }
+.modal-form-privacy-href{
+        color: var(--color3);
+}
