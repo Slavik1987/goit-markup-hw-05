@@ -974,3 +974,6 @@ Hero styless
 .modal-form-privacy-href{
         color: var(--color3);
 }
+.modal-button-order{
+        min-width: 169px;
+}
