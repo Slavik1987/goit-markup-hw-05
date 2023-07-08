@@ -958,15 +958,7 @@ Hero styless
         border: none;
         fill:var(--color5);
 }
-.modal-form-checkbox-icon {
-        opacity: 0;
-        transform:scale(0);
-}
-.modal-form-checkbox:checked + .modal-form-privacy-span >
-.modal-form-checkbox-icon {
-        opacity: 1;
-        transform: scale(1);
-}
+
 .subscribe-form-label-div{
 
         position: relative;
@@ -1010,14 +1002,12 @@ Hero styless
 }
 
 .modal-form-privacy-span{
-        display: flex;
+
+        display: inline-flex;
         align-items: center;
         justify-content: center;
-      
         width: 16px;
         height: 16px;
         border-radius: 2px;
         border: 1px solid #2E2F4266;
-
 }
-
