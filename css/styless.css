@@ -1011,3 +1011,8 @@ Hero styless
         border-radius: 2px;
         border: 1px solid #2E2F4266;
 }
+.modal-form-checkbox:checked + .modal-form-privacy > .modal-form-privacy-span{
+        background-color:var(--color4);
+        border: none;
+        fill: var(--color5);
+}
