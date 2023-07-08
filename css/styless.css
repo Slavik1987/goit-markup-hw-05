@@ -976,7 +976,7 @@ Hero styless
 }
 .modal-button-order{
         min-width: 169px;
-        display: flex;
+        display: block;
         justify-content: center;
         padding: 16px 32px;
         align-items: flex-start;
