@@ -1008,9 +1008,10 @@ Hero styless
         width: 24px;
         height: 24px;
         
-       
 }
-
+.button-form-imput-use{
+        background: rgba(255, 255, 255, 1);
+}
 .modal-form-input:focus + .modal-form-icon{
         fill: #4D5AE5;
 }
@@ -1018,8 +1019,7 @@ Hero styless
 .modal-form-privacy-span{
 
         display: inline-flex;
-        align-items: center;
-        justify-content: center;
+        
         width: 16px;
         height: 16px;
         border-radius: 2px;
