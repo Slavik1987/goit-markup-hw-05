@@ -962,6 +962,12 @@ Hero styless
         border: none;
         fill: var(--color5);
 }
+.modal-form-checkbox-icon{
+        opacity:0;
+}
+.modal-form-checkbox:checked + .modal-form-privacy > .modal-form-privacy-span > .modal-form-checkbox-icon {
+        opacity: 1;
+}
 
 .subscribe-form-label-div{
 
@@ -1001,8 +1007,6 @@ Hero styless
 
         width: 24px;
         height: 24px;
-        
-        
         
        
 }
