@@ -960,10 +960,10 @@ Hero styless
 .modal-form-checkbox:checked + .modal-form-privacy > .modal-form-privacy-span {
         background-color: var(--color4);
         border: none;
-        fill: var(--color5);
+        fill: var(--white);
 }
 .modal-form-checkbox-icon{
-        opacity:0;
+        opacity: 0;
 }
 .modal-form-checkbox:checked + .modal-form-privacy > .modal-form-privacy-span > .modal-form-checkbox-icon {
         opacity: 1;
@@ -1029,4 +1029,7 @@ Hero styless
 
 .subscribe-dive-form{
         margin-left: auto;
+}
+.button-form-imput-use{
+        fill: #FFFFFF;
 }
